@@ -9,8 +9,8 @@ go:
   - 1.7.4
   - 1.8.3
 
-install:
-  - make deps
+#install:
+#  - make deps
 
 script:
   - GOMAXPROCS=2 make ci
