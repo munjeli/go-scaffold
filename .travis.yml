@@ -12,8 +12,8 @@ go:
 #install:
 #  - make deps
 
-script:
-  - GOMAXPROCS=2 make ci
+#script:
+#  - GOMAXPROCS=2 make ci
 
 branches:
   only:
